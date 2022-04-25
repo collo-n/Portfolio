@@ -111,7 +111,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url('picture.jpg') no-repeat;
+  background: url('img/picture.jpg') no-repeat;
   background-color: #070707;
   background-size: cover;
   background-position: center;
@@ -316,6 +316,7 @@ section .button button:hover{
   justify-content: space-between;
 }
 .services .boxes .box{
+  background: gainsboro;
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
@@ -352,6 +353,57 @@ section .button button:hover{
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
+  color: #fff;
+}
+
+/* MY Projects */
+.project{
+  background: gainsboro;
+}
+
+.project .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.project .boxes .box{
+  background: white;
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+.project .boxes .box:hover{
+  background: #3e9b08;
+  color: rgb(8, 8, 8);
+}
+.project .boxes .box .icon{
+  height: 50px;
+  width: 50px;
+  background: #3e9b08;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+.boxes .box:hover .icon{
+  background-color: #fff;
+  color: #5df804;
+}
+.project .boxes .box:hover .topic,
+.project .boxes .box:hover p{
+  color: #0E2431;
+  transition: all 0.4s ease;
+}
+.project .boxes .box:hover .topic,
+.project .boxes .box:hover p{
   color: #fff;
 }
 
