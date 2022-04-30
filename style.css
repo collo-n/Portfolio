@@ -478,6 +478,10 @@ footer .text span a:hover{
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
+  .project .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 2 - 20px);
+  }
 }
 @media (max-width: 900px) {
   .about .left img{
@@ -546,6 +550,9 @@ footer .text span a:hover{
     margin: 20px 0;
     width: 100%;
   }
+  .project .boxes .box{
+    margin: 20px 0;
+    width: 100%;
   .contact .text{
     width: 100%;
 }
